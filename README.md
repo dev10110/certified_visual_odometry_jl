@@ -10,6 +10,8 @@ This repo contains the julia source code to accompany the paper
 }
 ```
 
+If you find this repo useful, please consider giving us a citation. 
+
 We have released the julia source code for estimating the rototranslation and the error bounds between two point clouds. 
 In the future, we hope to release the code to run the full visual odometry routine, taking in images, and returning the pose estimate and error bounds. 
 
@@ -21,6 +23,7 @@ Clone this repo, and make sure the following (currently unregistered) packages a
 ] add https://github.com/dev10110/ParallelMaximumClique.jl
 ] add https://github.com/dev10110/GraduatedNonConvexity.jl
 ```
+These two libraries wrap/reimplement functions from different papers. Please consider citing the original works too (see the github links for citation information).
 
 Now run 
 ```julia
