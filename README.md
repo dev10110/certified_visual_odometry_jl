@@ -24,6 +24,7 @@ Clone this repo, and make sure the following (currently unregistered) packages a
 ] add https://github.com/dev10110/GraduatedNonConvexity.jl
 ```
 These two libraries wrap/reimplement functions from different papers. Please consider citing the original works too (see the github links for citation information).
+This code has been tested with Julia 1.11.5.
 
 Now run 
 ```julia
