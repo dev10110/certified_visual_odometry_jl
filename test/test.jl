@@ -95,8 +95,8 @@ println()
 
 
 println("Rotation Errors:")
-println("eR_est: ", round(eR_est, digits=6), " [measured error]")
-println("eR:     ", round(eR, digits=6), " [theoretical error bound]")
+println("eR_est: ", round(eR_est, digits = 6), " [measured error]")
+println("eR:     ", round(eR, digits = 6), " [theoretical error bound]")
 if eR_est < eR
     println("eR_est < eR: true 🎉")
 else
@@ -106,8 +106,8 @@ end
 println()
 
 println("Translation Errors:")
-println("et_est: ", round(et_est, digits=6), " [measured error]")
-println("et:     ", round(et, digits=6), " [theoretical error bound]")
+println("et_est: ", round(et_est, digits = 6), " [measured error]")
+println("et:     ", round(et, digits = 6), " [theoretical error bound]")
 if et_est < et
     println("et_est < et: true 🎉")
 else
